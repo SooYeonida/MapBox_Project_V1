@@ -149,7 +149,6 @@ public class MainActivity extends AppCompatActivity implements
         mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(this);
 
-
         // cctv button
         Button cctvButton = findViewById(R.id.imageButton);
         cctvButton.setOnClickListener(v -> {
